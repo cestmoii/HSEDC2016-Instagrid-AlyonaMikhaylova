@@ -1,0 +1,23 @@
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family:'PT Sans Caption', sans-serif;
+  min-width: 996px;
+  background-color: #FAFAFA;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  overflow: hidden;
+  margin: 0 auto;
+  flex-direction: row;
+  color: rgba(51, 51, 51, 1);
+}
