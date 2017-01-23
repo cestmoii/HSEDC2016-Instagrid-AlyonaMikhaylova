@@ -1,0 +1,53 @@
+.next,
+.prev {
+  position: fixed;
+  margin-top: 48vh;
+  z-index: 9999;
+}
+
+.next, .prev:hover {
+  opacity: 1;
+}
+
+.next {
+  width: 70px;
+  height: 40px;
+  right: 15px;
+}
+
+.prev {
+  width: 50px;
+  height: 50px;
+  left: 15px;
+}
+
+.circle {
+  border-radius: 100px;
+  background-color: #eae1e1;
+  opacity: 0.69;
+  border-color: pink;
+  width: 33px;
+  height: 33px;
+}
+
+.arrow-next,
+.arrow-prev {
+  position: fixed;
+  border-right: 3px solid grey;
+  border-bottom: 3px solid grey;
+  opacity: 1;
+  width: 9px;
+  height: 9px;
+}
+
+.arrow-next {
+  transform: rotate(-45deg);
+  margin-top: 13px;
+  margin-left: 12px;
+}
+
+.arrow-prev {
+  transform: rotate(135deg);
+  margin-top: 13px;
+  margin-left: 12px;
+}
