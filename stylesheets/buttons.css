@@ -1,3 +1,7 @@
+.buttons {
+  position: absolute;
+}
+
 .next,
 .prev {
   position: fixed;

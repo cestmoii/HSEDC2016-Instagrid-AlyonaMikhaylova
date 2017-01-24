@@ -9,7 +9,8 @@
 }
 
 .menubar div {
-  display: flex;
+  position: relative;
+  top: 6px;
 }
 
 .name {
