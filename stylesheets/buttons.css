@@ -1,5 +1,10 @@
 .buttons {
   position: absolute;
+  opacity: .2;
+}
+
+.buttons:hover {
+  opacity: 1;
 }
 
 .next,

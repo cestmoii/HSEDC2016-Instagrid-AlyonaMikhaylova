@@ -1,6 +1,6 @@
 .galleryWrapper {
   width: 100%;
-  top: 30px;
+  top: 22px;
   position: fixed;
 }
 
@@ -23,16 +23,16 @@
 .big img {
   display: flex;
   margin: 0;
-  width: 95vh;
+  width: 94vh;
 }
 
 section.small {
   display: flex;
   flex-direction: column;
-  width: 50vh;
+  width: 47vh;
 }
 
 section.small img {
-  width: 50vh;
-  height: 48vh;
+  width: 47vh;
+  height: 47vh;
 }
