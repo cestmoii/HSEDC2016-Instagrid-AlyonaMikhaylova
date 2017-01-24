@@ -15,9 +15,14 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  width: 1440px;
+  width: 100%;
+  bottom: 31px;
   overflow: hidden;
   margin: 0 auto;
   flex-direction: row;
   color: rgba(51, 51, 51, 1);
+}
+
+a {
+  color: inherit;
 }

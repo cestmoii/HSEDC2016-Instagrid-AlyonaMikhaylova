@@ -1,0 +1,22 @@
+.menubar {
+  width: 100%;
+  position: fixed;
+  height: 3vh;
+  z-index: 1;
+  background-color: aliceblue;
+  opacity: 0.90;
+  top: 0;
+}
+
+.menubar div {
+  display: flex;
+}
+
+.name {
+  margin-left: 45%;
+}
+
+div.blank {
+  position: fixed;
+  right: 0px;
+}
