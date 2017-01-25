@@ -12,6 +12,7 @@
   position: fixed;
   margin-top: 339px;
   z-index: 9999;
+  top: calc (100vh - 50px - 25px)
 }
 
 .next, .prev:hover .circle {

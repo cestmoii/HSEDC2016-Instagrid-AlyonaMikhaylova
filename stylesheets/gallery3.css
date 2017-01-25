@@ -1,9 +1,8 @@
 .galleryWrapper {
-  width: 100%;
-  top: 139px;
-  left: 15vh;
-  right: 15vh;
-  position: fixed;
+  width: 100vw;
+  height: 102vh;
+  background-color: green;
+  display: flex;
 }
 
 .gallery {
@@ -14,7 +13,7 @@
   overflow: scroll;
   overflow-y: hidden;
   width: 100%;
-  min-width: 996px;
+  margin: auto;
 }
 
 .pics {
