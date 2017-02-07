@@ -1,22 +1,13 @@
-.buttons {
-  position: absolute;
-  opacity: .2;
-}
-
-.buttons:hover {
-  opacity: 1;
-}
-
 .next,
 .prev {
   position: fixed;
-  margin-top: 339px;
+  top: calc(100vh - 50vh - 40px);
   z-index: 9999;
-  top: calc (100vh - 50px - 25px)
+  opacity: .2;
 }
 
-.next, .prev:hover .circle {
-  display: block;
+.next:hover, .prev:hover {
+  opacity: 1;
 }
 
 .next {

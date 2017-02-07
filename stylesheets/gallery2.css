@@ -7,7 +7,7 @@
   overflow-y: hidden;
   width: 100%;
   min-width: 996px;
-  top: 50 px;
+  top: 50px;
   height: 100vh;
 }
 
@@ -31,4 +31,9 @@ section.small {
 section.small img {
   width: 47vh;
   height: 47vh;
+}
+
+.next,
+.prev {
+  top: calc(100vh - 50vh - 30px);
 }
